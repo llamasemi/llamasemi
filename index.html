@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche - Carro de Lujo</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Encabezado y menú */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        /* Menú desplegable */
+        nav ul li:hover > .dropdown {
+            display: block;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 150px;
+        }
+
+        .dropdown li a {
+            padding: 10px 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado con menú -->
+    <header>
+        <h1>Porsche - Carros de Lujo</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#modelos">Modelos</a>
+                    <!-- Menú desplegable -->
+                    <ul class="dropdown">
+                        <li><a href="porsche911.html">Porsche 911</a></li>
+                        <li><a href="porsche_cayenne.html">Porsche Cayenne</a></li>
+                        <li><a href="porsche_taycan.html">Porsche Taycan</a></li>
+                    </ul>
+                </li>
+                <li><a href="#especificaciones">Especificaciones</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de la página principal -->
+    <section id="historia">
+       <center><h2>Historia de Porsche</h2>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.nmhcLp2afBYEFiOtEbG6pAHaEA&pid=Api&P=0&h=180" alt="Descripción de la imagen" width="300" height="200">
+    
+        <p>La historia de Porsche es una de las más fascinantes en el mundo de la automoción. Esta marca alemana, fundada en 1931 por Ferdinand Porsche, ha</p> 
+        <p>sido responsable de la creación de algunos de los automóviles más icónicos y emocionantes de la historia.</p>
+
+        <p>Desde su primer modelo, el Porsche 64, hasta los últimos deportivos de alta gama, la marca ha mantenido una filosofía de excelencia en la ingeniería,</p>
+        <p>diseño y rendimiento. Además, Porsche ha tenido una estrecha relación con el mundo de la competición, con numerosos éxitos en las carreras de </p>
+        <p>resistencia más exigentes en todo el mundo.</p></center>
+    </section>
+    <footer>
+        <p>&copy; 2023 Porsche Fan Page</p>
+    </footer>
+</body>
+</html>
